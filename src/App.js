@@ -10,7 +10,7 @@ class LegacyWelcomeClass extends Component {
     return <h2>{t('video_title')}</h2>;
   }
 }
-const Welcome = withTranslation()(LegacyWelcomeClass);
+const Welcome = withTranslation('landing')(LegacyWelcomeClass);
 
 // Component using the Trans component
 function MyComponent() {
